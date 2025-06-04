@@ -117,7 +117,8 @@ curl -X POST "http://localhost:8000/transcribe/" \
 
 
 文档地址在 8000/docs，如下：
-<img width="1470" alt="image" src="https://github.com/user-attachments/assets/d2e32245-84ea-4076-adb6-be11fdfab432" />
+http://119.45.168.124:8000/docs
+<img width="1467" alt="image" src="https://github.com/user-attachments/assets/5b1b8a68-d41b-4f24-879e-f4dcb1e84da6" />
 
 
 ✅ 验证 GPU 是否工作中
