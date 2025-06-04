@@ -126,3 +126,11 @@ nvidia-smi
 你应该看到 Python 或者 uvicorn 进程正在使用 GPU。
 
 # 二、java服务部署
+
+<img width="1384" alt="image" src="https://github.com/user-attachments/assets/de2f9da9-803a-4a79-822c-630803797b3a" />
+
+![image](https://github.com/user-attachments/assets/d6e03a5f-f001-4c4d-b248-6136779cf176)
+
+![image](https://github.com/user-attachments/assets/2313a902-1837-4847-937a-78b906669cfc)
+
+
