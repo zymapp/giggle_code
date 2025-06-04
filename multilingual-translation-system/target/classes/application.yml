@@ -1,0 +1,11 @@
+server:
+  port: 8088
+spring:
+  servlet:
+    multipart:
+      max-file-size: 300MB
+      max-request-size: 300MB
+logging:
+  level:
+    root: INFO
+    com.example.translation: DEBUG
