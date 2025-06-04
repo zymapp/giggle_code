@@ -141,17 +141,8 @@ nvidia-smi
 # 三、流程架构图
 
 ## 🧩 1、流程图
-```
-用户语音上传/发起请求
-        ↓
-网关服务（Spring Cloud Gateway 资源感知 + 优化分配 或者 nginx 负载均衡转发）
-        ↓
-JAVA API 集群服务，任务中心（任务队列 + 元信息记录）
-        ↓
-Whisper服务 + LLM翻译服务
-        ↓
-翻译结果入库 & 客户回调通知
-```
+<img width="530" alt="image" src="https://github.com/user-attachments/assets/f0f629cc-6c47-465f-9290-cff6c35293ea" />
+
 
 # 四、可靠性 & 可扩展性
 ## 🧩 1、考虑存在海量翻译任务的情况，设计出可以快速扩容的系统。
