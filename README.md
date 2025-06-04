@@ -1,4 +1,4 @@
-# 一、whisper 部署
+# 一、环境搭建
 
 ## 🧩 1、系统环境
 
@@ -127,10 +127,13 @@ nvidia-smi
 
 # 二、java服务部署
 
+## 🧩 1、启动 java服务工程
 <img width="1384" alt="image" src="https://github.com/user-attachments/assets/de2f9da9-803a-4a79-822c-630803797b3a" />
 
+## 🧩 2、使用 postman 调用 java 服务进行语音识别，以上传 1.mp3文件为例子 ，如下图：
 ![image](https://github.com/user-attachments/assets/d6e03a5f-f001-4c4d-b248-6136779cf176)
 
+## 🧩 3、使用 postman 调用 java 服务进行语音识别任务查询，查看语音任务识别结果，如下图：
 ![image](https://github.com/user-attachments/assets/2313a902-1837-4847-937a-78b906669cfc)
 
 
