@@ -110,10 +110,11 @@ ps aux | grep uvicorn
 5️⃣ 测试whisper接口：
 ```
 curl -X POST "http://localhost:8000/transcribe/" \
-  -F "file=@your_audio_file.mp3"
+  -F "file=@/home/OK/1.mp3"
 ```
 返回以下结果代表 whisper的环境成功
-![image](https://github.com/user-attachments/assets/f3c926c1-0663-413d-ad1a-94917444a23f)
+![image](https://github.com/user-attachments/assets/f02387e2-3235-45e0-8594-42bd705dbb2b)
+
 
 文档地址在 8000/docs，如下：
 <img width="1470" alt="image" src="https://github.com/user-attachments/assets/d2e32245-84ea-4076-adb6-be11fdfab432" />
@@ -135,5 +136,9 @@ nvidia-smi
 
 ## 🧩 3、使用 postman 调用 java 服务进行语音识别任务查询，查看语音任务识别结果，如下图：
 ![image](https://github.com/user-attachments/assets/2313a902-1837-4847-937a-78b906669cfc)
+
+# 三、流程架构图
+
+
 
 
